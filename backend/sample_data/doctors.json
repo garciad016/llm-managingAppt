@@ -1,0 +1,62 @@
+[
+  {
+    "firstName": "Alexander",
+    "lastName": "Hill",
+    "email": "alexander.hill@example.com",
+    "phoneNumber": "123-111-2233"
+  },
+  {
+    "firstName": "Sophia",
+    "lastName": "Clark",
+    "email": "sophia.clark@example.com",
+    "phoneNumber": "456-222-3344"
+  },
+  {
+    "firstName": "Ethan",
+    "lastName": "Taylor",
+    "email": "ethan.taylor@example.com",
+    "phoneNumber": "789-333-4455"
+  },
+  {
+    "firstName": "Isabella",
+    "lastName": "Anderson",
+    "email": "isabella.anderson@example.com",
+    "phoneNumber": "234-444-5566"
+  },
+  {
+    "firstName": "James",
+    "lastName": "Harris",
+    "email": "james.harris@example.com",
+    "phoneNumber": "567-555-6677"
+  },
+  {
+    "firstName": "Olivia",
+    "lastName": "Martinez",
+    "email": "olivia.martinez@example.com",
+    "phoneNumber": "890-666-7788"
+  },
+  {
+    "firstName": "Michael",
+    "lastName": "Wilson",
+    "email": "michael.wilson@example.com",
+    "phoneNumber": "345-777-8899"
+  },
+  {
+    "firstName": "Emily",
+    "lastName": "White",
+    "email": "emily.white@example.com",
+    "phoneNumber": "678-888-9900"
+  },
+  {
+    "firstName": "William",
+    "lastName": "Garcia",
+    "email": "william.garcia@example.com",
+    "phoneNumber": "901-999-1122"
+  },
+  {
+    "firstName": "Emma",
+    "lastName": "Moore",
+    "email": "emma.moore@example.com",
+    "phoneNumber": "123-000-2233"
+  }
+]

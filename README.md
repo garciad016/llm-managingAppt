@@ -2,7 +2,7 @@
 
 A learning-sprint project exploring how a local LLM can manage structured healthcare data (patients, doctors, appointments) through **tool calling** against a typed REST API.
 
-The goal was to get hands-on with the full loop: define a clinical-style data model, expose it through a documented API, and let an LLM read/write to it via LangChain tools — rather than just prompting over free text.
+The goal was to get hands-on with the full loop: define a clinical-style data model, expose it through a documented API, and let an LLM read/write to it via LangChain tools rather than just prompting over free text.
 
 This repo is exploratory, not production. Data is synthetic and the auth layer is intentionally out of scope.
 
@@ -37,7 +37,7 @@ Sample fixtures live in `backend/sample_data/` (`patients.json`, `doctors.json`)
 
 ## API endpoints
 
-All routes are prefixed with `/api`. Swagger UI is the source of truth — spin up the backend and visit `http://localhost:3000/api`.
+All routes are prefixed with `/api`. Swagger UI is the source of truth, run the backend and visit `http://localhost:3000/api`.
 
 | Method | Path | Purpose |
 |---|---|---|
@@ -122,7 +122,7 @@ This is a sprint repo, so:
 
 - No authentication, authorization, or audit logging. Not suitable for any real PHI.
 - SQLite + sample JSON only; no migrations strategy beyond `prisma db push`.
-- The chatbot matches patients by `(firstName, lastName, healthCardNumber, doctorName)` string equality — fragile, and would need proper identifiers in anything real.
+- The chatbot matches patients by `(firstName, lastName, healthCardNumber, doctorName)` string equality, fragile, and would need proper identifiers in anything real.
 - `manage_appointments` in `appointment_manager.py` is an earlier unified tool that was superseded by the three split tools actually bound in `main.py`; left in for reference.
 - `langchain_playground.py` uses a separate in-memory patient dict and is independent of the backend.
 
